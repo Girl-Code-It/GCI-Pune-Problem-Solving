@@ -2,7 +2,7 @@
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
-        vector<vector<int>>ans;
+        vector<vector<int>>ans(numsRows);
         ans[0].pb(1);
         for(int i=1;i<numRows;i++){
             ans[i].pb(1);
