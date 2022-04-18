@@ -3,10 +3,10 @@ using namespace std;
 //While giving the size add +1, as null value also needs to be counted.
 void maxlen(char arr[], int n){
     int i=0;
-    int currlen=0;
+    int currlen=0;  
     int maxlen=0;
     int st=0, maxst=0;
-    while(i<n+1){
+    while(1){
         if(arr[i] ==' ' || arr[i]=='\0'){
             if(currlen>maxlen){
                 maxst = st;
@@ -16,7 +16,6 @@ void maxlen(char arr[], int n){
             currlen = 0;
         }
         else{
-            currlen++;
         }
         if(arr[i]=='\0'){
                 break;
@@ -52,16 +51,12 @@ bool palindrome(char arr[], int n){
     return 1;
 }
 int main(){
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
-    #endif
     int n, i, maxl;
     cout<<"Enter the size of your character array:";
     cin>>n;
+    cin.ignore();
     char arr[n+1];
     cout<<"Enter the elements of your array:"<<endl;
-    cin.ignore();
     cin.getline(arr,n+1);
     cin.ignore();
     cout<<"Your array is:"<<endl;
