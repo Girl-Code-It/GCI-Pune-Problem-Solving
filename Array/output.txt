@@ -1,0 +1,31 @@
+kritika
+
+0x62fd74
+ The capacity of string is : 15
+The new capacity after shrinking is : 15
+NNNNNNNNNN
+kritika
+
+family
+
+family<3
+Kritika
+t
+t
+The string is empty!
+
+-1
+8
+ily
+family<3
+ninpoop
+3
+10
+nincom
+6
+comp
+788
+7862
+7862
+aeehhioruuwy
+ywuuroihheea
